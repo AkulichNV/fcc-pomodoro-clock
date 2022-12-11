@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/icons/favicon.ico">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Pomodoro clock</title>
+</head>
+<body>
+    <div class = "coffeeSet">
+        <div class = "dish">
+          <img class = "beans" src = "./assets/img/coffee-beans.png" alt="coffee beans ">
+          <div class = "dishOval"></div>
+          
+        </div>
+        <div class = "cup">
+          <div class = "cupBottom"></div>
+          <div class = "cupBowl" onclick ="ifTimer()">
+            <div id = "coffee"></div>
+            <div class = "caption time" id = "Timer">25</div>
+            <div class = "caption text" id = "textTime">WORK</div>
+          </div>
+          <div id = "steam" class = "cupSteam">
+            <div  class = "leftSteam"></div>
+            <div class = "centerSteam"></div>
+            <div class = "rightSteam"></div>
+          </div>
+        </div>
+        <div class = "handle">
+          <div class = "hand handleTop"><p>Session</p></div>
+          <div class = "handleMiddle">
+            <div class = "session">
+              <p class = "set" onclick = "setTime('session', 1)">+</p>
+              <p id = "session">25</p>
+              <p class = "set" onclick = "setTime('session', -1)">-</p>
+            </div>
+            <div class = "break" style = "margin-top: 20px;">
+              <p class = "set" onclick = "setTime('break', 1)" >+</p>
+              <p id = "break">5</p>
+              <p class = "set" onclick = "setTime('break', -1)">-</p>
+            </div>
+          </div>
+          <div class = "hand handleBottom"><p>Break</p></div>
+        </div>
+      </div>
+      
+</body>
+</html>

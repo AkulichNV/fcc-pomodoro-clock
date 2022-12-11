@@ -1,0 +1,144 @@
+@font-face{
+    font-family: LCD;
+    src: url(https://cdn.rawgit.com/AkulichNV/Font/71988779/LED.ttf); 
+  }
+  body{
+    background-color: #ffedea !important;
+    font-size: 25px;
+    font-family: 'LCD';
+  }
+  .coffeeSet{
+    display: block;
+    position: absolute;
+    top: 5%; left: 10%;
+    height: 700px; width: 1000px;
+  }
+  .beans {
+    display: block;
+    position: absolute;
+    bottom: 11%; left: 7%;
+    height: 100px;
+    z-index: 1;
+  }
+  .dishOval {
+    display: block;
+    position: absolute;
+    bottom: 9.5%; left: 18%;
+    height: 40px; width: 700px;
+    border-radius: 0 0 105px 105px;
+    background: #4f1e00;
+  }
+  .cupBottom {
+    display: block;
+    position: absolute;
+    bottom: 15%; left: 38%;
+    height: 40px; width: 300px;
+    border-radius: 0 0 25px 25px;
+    background: #4f1e00;
+  }
+  .cupBowl {
+    display: block;
+    position: absolute;
+    bottom: 18%; left: 32%;
+    height: 300px; width: 420px;
+    border-radius: 0 0 35px 35px;
+    background: #4f1e00;
+    z-index: 1;
+  }
+  .cupBowl:hover {
+    cursor: pointer;
+  }
+  .time{
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    margin-top: 20px;
+  }
+  .text {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 5px;
+  }
+  #coffee {
+    display: block;
+    position: absolute;
+    bottom: 1px; left: 4px;
+    height: 298px; width: 413px;
+    border-radius: 0 0 35px 35px;
+    z-index: -1;
+  }
+  #steam {
+    display: block;
+    position: absolute;
+    bottom: 65%; left: 32%;
+    height: 200px; width: 420px;
+  }
+  .leftSteam {
+    display: block;
+    position: absolute;
+    bottom: 0; left: 15%;
+    height: 150px; width: 40px;
+    border-radius: 0 105px ;
+    background: #4f1e00;
+  }
+  .centerSteam {
+    display: block;
+    position: absolute;
+    bottom: 30%; left: 45%;
+    height: 150px; width: 40px;
+    border-radius: 0 55px;
+    background: #4f1e00;
+  }
+  .rightSteam {
+    display: block;
+    position: absolute;
+    bottom: 0; left: 75%;
+    height: 150px; width: 40px;
+    border-radius: 0 55px;
+    background: #4f1e00;
+  }
+  .handleBottom {
+    display: block;
+    position: absolute;
+    bottom: 30%; left: 73%;
+    height: 40px; width: 150px;
+    border-radius: 0 0 25px 0;
+    background: #4f1e00;
+  }
+  .handleTop {
+    display: block;
+    position: absolute;
+    bottom: 50%; left: 73%;
+    height: 40px; width: 150px;
+    border-radius: 0 25px 0 0;
+    background: #4f1e00;
+  }
+  .hand p {
+    color: white;
+    margin-top: 5px;
+    margin-right: 63px;
+    text-align: right;
+  }
+  .handleMiddle {
+    display: block;
+    position: absolute;
+    bottom: 30%; left: 82%;
+    height: 180px; width: 60px;
+    border-radius: 0 25px 25px 0;
+    background: #4f1e00;
+    z-index: 1;
+  }
+  .handleMiddle p {
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
+  .session, .break {
+  text-align: center;
+  }
+  .set:hover {
+    cursor: pointer;
+  }
+  
+  
